@@ -10,17 +10,86 @@
 	<!-- Your CSS -->
 
 	<link rel="stylesheet" href="css/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Reenie+Beanie" rel="stylesheet">
+
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#resume">Resusme</a></li>
-			<li><a href="#projects">Projects</a></li>
-			
-		</ul>
-	</nav>
+<!--	<section class="press">
+	    <button class="letter">A</button>
+	    <button class="hover"></button>
+	    <button class="active"></button>
+	</section> -->
+<div class="header">
+	<h1>Hangman</h1>
+	<h2>by Evan Emenegger</h2>
+</div>
+
+<div class="gallows">	
+	<div id="image-container">
+		<img id="hang-board" src="http://hangman.doncolton.com/play/hang0.png">
+		<img id="trump" src="http://www.freeiconspng.com/uploads/donald-trump-face-png-30.png">
+		<img id="stick-body" src="css/stickbody.png">
+		<img id="stick-arm" src="css/stickarm.png">
+		<img id="stick-arm-1" src="css/stickarm1.png">
+		<img id="stick-body" src="css/stickbody.png">
+		<img id="stick-leg" src="css/stickleg.png">
+		<img id="stick-leg-1" src="css/stickleg1.png">
+	</div>
+	<div id="incorrect-letters">
+
+		<h2></br>
+		</br>Incorrect Guesses:
+		</br> 
+		</h2>
+		<h1 id="wrong">
+		</h1>
+		<div id="turns">
+		    <h2>Errors: 
+		  </h2>
+		  <h1 id="total">
+		  </h1>
+  		</div>
+	</div>
+</div>
+<div class="board">
+	<ul id="word-list">
+
+	</ul>
+  <div id="buttons">
+	<button class="letter">A</button>
+	<button class="letter">B</button>
+	<button class="letter">C</button>
+	<button class="letter">D</button>
+	<button class="letter">E</button>
+	<button class="letter">F</button>
+	<button class="letter">G</button>
+	<button class="letter">H</button>
+	<button class="letter">I</button>
+	<button class="letter">J</button>
+	<button class="letter">K</button>
+	<button class="letter">L</button>
+	<button class="letter">M</button>
+	<button class="letter">N</button>
+	<button class="letter">O</button>
+	<button class="letter">P</button>
+	<button class="letter">Q</button>
+	<button class="letter">R</button>
+	<button class="letter">S</button>
+	<button class="letter">T</button>
+	<button class="letter">U</button>
+	<button class="letter">V</button>
+	<button class="letter">W</button>
+	<button class="letter">X</button>
+	<button class="letter">Y</button>
+	<button class="letter">Z</button>
+</div>
+</div>
+
+
+  
+
+
 
 <!-- Always load jQuery first always the minified version-->
 	<script
@@ -31,6 +100,6 @@
 <!-- Then, any JS libraries -->
 <!-- Lastly, your JS -->
 
-<script type="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
