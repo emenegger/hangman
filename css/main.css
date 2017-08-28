@@ -1,0 +1,185 @@
+
+*{
+	background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+	box-sizing: border-box;
+	background-color: #89A6E9;
+}
+
+body {
+	background-color: #89A6E9;
+}
+
+button {
+	font-size: 40px;
+	font-family: 'Bowlby One SC', cursive;
+	color: #FFECC6;
+	border-radius: 30px;
+	background-color: #3863C6;
+}
+
+section.press button {
+  font-size: 30px;
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #27496d;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+section.press button:hover,
+section.press button.hover {
+  background-color: #417cb8;
+}
+
+section.press button:active,
+section.press button.active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.board {
+	width: 70%;
+	height: 400px;
+	margin: auto;
+}
+
+.gallows {
+	width: 70%;
+	height: 300px;
+	margin: auto;
+	font-size: 60px;
+	font-family: 'Reenie Beanie', cursive;
+	color: #FFECC6;
+}
+
+#image-container {
+	display: inline-block;
+	width: 30%;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+#incorrect-letters {
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'Reenie Beanie', cursive;
+	color: #FFECC6;
+	width: 50%;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+}
+
+.header {
+	width: 70%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+.header, h1 {
+	font-size: 70px;
+	font-family: 'Reenie Beanie', cursive;
+	color: #FFECC6;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Reenie Beanie', cursive;
+	color: #FFECC6;	
+}
+
+#hang-board {
+	position: absolute;
+}
+
+#trump {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 40px;
+	left: 145px;
+	visibility: hidden;
+	z-index: 1;
+}
+
+#stick-body {
+	height: 90px;
+	width: 100px;
+	top: 90px;
+	left: 115px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#stick-arm {
+	height: 40px;
+	width: 70px;
+	top: 85px;
+	left: 168px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#stick-arm-1 {
+	height: 40px;
+	width: 70px;
+	top: 95px;
+	left: 95px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#stick-leg {
+	height: 70px;
+	width: 45px;
+	top: 176px;
+	left: 122px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#stick-leg-1 {
+	height: 70px;
+	width: 45px;
+	top: 176px;
+	left: 166px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#stick-leg-
+
+#total {
+	display: inline-block;
+	float: left;
+	color: #FFA65C;
+}
+
+#wrong {
+	color: #FFA65C
+}
+
+
+ul {
+	display: inline-block;
+	z-index: 99;
+}
+
+li {
+	display: inline-block;
+	border-bottom: 5px solid black;
+	width: 70px;
+	height: 70px;
+	font-size: 90px;
+	padding: 10px;
+	position: center;
+	color: #BAF28C;
+	margin-right: 5px;
+	font-family: 'Reenie Beanie', cursive;
+}
