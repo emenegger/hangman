@@ -153,7 +153,17 @@ h2 {
 	visibility: hidden;
 }
 
-#stick-leg-
+.letter[disabled] {
+	color: #FFA860;
+}
+
+.letter {
+	font-weight: bold;
+}
+
+#buttons {
+	padding-top: 10px;
+}
 
 #total {
 	display: inline-block;

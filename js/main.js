@@ -21,7 +21,7 @@ $(document).ready(function(){
 //We loop through the secretWord
 	let letterSelected = $(this).text().toLowerCase(); 
 	let foundAMatch = false;
-	
+	$(this).attr("disabled", true);
 
 	for (let i = 0; i < lengthOfSecretWord; i++) {
 		//and if the letterSelected is in the secretWord
@@ -29,7 +29,7 @@ $(document).ready(function(){
 			foundAMatch = true;
 			console.log(true);
 			$('ul').css("visibility", "visible");
-			$(list[i]).append(secretWord[i]);
+			$(list[i]).append(secretWord[i].toUpperCase());
 		} 
 		
 	}
@@ -38,8 +38,8 @@ $(document).ready(function(){
 			lettersCorrect += 1;
 			console.log("lettersCorrect = " + lettersCorrect);
 		} else {
-			numberOfTurns += 1;
 			$('#wrong').append(letterSelected);
+			numberOfTurns += 1;
 
 	}
 	console.log("numberOfTurns = " + numberOfTurns);
